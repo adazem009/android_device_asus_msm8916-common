@@ -204,8 +204,9 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-service
 
 # Keystore
-PRODUCT_PACKAGES += \
-    keystore.msm8916
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/keystore/lib/hw/keystore.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.msm8916.so \
+    $(LOCAL_PATH)/keystore/lib64/hw/keystore.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.msm8916.so
 
 # Light
 PRODUCT_PACKAGES += \
