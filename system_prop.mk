@@ -122,6 +122,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     mm.enable.sec.smoothstreaming=true \
     mmp.enable.3g2=true \
+    debug.stagefright.ccodec=0 \
     debug.stagefright.omx_default_rank.sw-audio=1 \
     media.stagefright.thumbnail.prefer_hw_codecs=true \
     debug.stagefright.omx_default_rank=0 \
@@ -161,7 +162,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Qualcomm
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.data.qmi.adb_logmask=0 \
-    ro.qualcomm.cabl=0
+    ro.qualcomm.cabl=2
 
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
