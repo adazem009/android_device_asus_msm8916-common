@@ -10,6 +10,13 @@ allow mediaserver system_server:unix_stream_socket rw_socket_perms;
 
 allow mediaserver sensorservice_service:service_manager {find};
 allow mediaserver hal_lineage_camera_motor_hwservice:hwservice_manager {find};
+allow mediaserver hal_camera_hwservice:hwservice_manager find;
+allow mediaserver sensor_privacy_service:service_manager find;
+allow mediaserver fwk_camera_hwservice:hwservice_manager add;
+allow mediaserver cameraproxy_service:service_manager find;
+allow mediaserver cameraserver_service:service_manager add;
+allow mediaserver hidl_base_hwservice:hwservice_manager add;
+allow mediaserver system_data_file:sock_file write;
 
 r_dir_file(mediaserver, fac_file)
 r_dir_file(mediaserver, persist_file)
