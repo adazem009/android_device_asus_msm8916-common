@@ -186,3 +186,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
    ro.lmk.use_minfree_levels=true \
    ro.lmk.use_psi=false \
    ro.lmk.kill_heaviest_task=false
+
+# BPF
+PRODUCT_PROPERTY_OVERRIDES += \
+   ro.kernel.ebpf.supported=false
