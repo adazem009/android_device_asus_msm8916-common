@@ -371,6 +371,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/thermal/thermal-engine-8939-ze601kl.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-8939-ze601kl.conf \
     $(LOCAL_PATH)/thermal/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf
 
+# Shim for S
+PRODUCT_PACKAGES += \
+    libshims_thermal
+
 # TimeKeep
 PRODUCT_PACKAGES += \
     timekeep \
