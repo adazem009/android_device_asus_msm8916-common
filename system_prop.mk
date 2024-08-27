@@ -82,7 +82,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
    persist.hwc.mdpcomp.enable=true \
    persist.hwc.ptor.enable=true \
    persist.hwc.pubypass=true \
-   debug.sdm.support_writeback=0
+   debug.sdm.support_writeback=0 \
+   debug.renderengine.backend=threaded
 
 # SurfaceLinger
 PRODUCT_PROPERTY_OVERRIDES += \
