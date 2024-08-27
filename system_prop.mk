@@ -162,6 +162,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
    persist.radio.multisim.config=dsds \
    persist.vendor.radio.aosp_usr_pref_sel=true \
    rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
+   vendor.rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
    ril.subscription.types=NV,RUIM \
    ro.telephony.call_ring.multiple=false \
    ro.telephony.default_network=9,9
