@@ -229,7 +229,8 @@ TARGET_LD_SHIM_LIBS += \
     /system/vendor/lib64/libcneapiclient.so|libshims_cne.so \
     /system/vendor/lib64/libflp.so|libshims_flp.so \
     /system/vendor/lib64/libizat_core.so|libshims_get_process_name.so \
-    /system/vendor/lib64/libmm-abl.so|libshims_thermal.so
+    /system/vendor/lib64/libmm-abl.so|libshims_thermal.so \
+    /system/lib/hw/camera.vendor.msm8916.so|libshims_sensor.so
 
 # Vendor Unification Init
 TARGET_INIT_VENDOR_LIB := //$(VENDOR_PATH):libinit_msm8916

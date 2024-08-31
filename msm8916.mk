@@ -372,7 +372,8 @@ PRODUCT_COPY_FILES += \
 
 # Shim for S
 PRODUCT_PACKAGES += \
-    libshims_thermal
+    libshims_thermal \
+    libshims_sensor
 
 # TimeKeep
 PRODUCT_PACKAGES += \
